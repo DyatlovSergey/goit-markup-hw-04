@@ -47,6 +47,26 @@ h3 {
   align-items: center;
 }
 
+.nav-item:hover {
+  fill: var(--blue-text);
+}
+.icon-mail,
+.icon-tel {
+  fill: var(--seconadary-text-color);
+  margin-right: 10px;
+}
+
+.icons-feature {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+
+.icon-feature {
+  width: 70px;
+  height: 70px;
+}
+
 /* logo */
 .logo {
   display: block;
@@ -279,8 +299,8 @@ outline: 1px solid tomato;
   background-image: url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-background-size: 1600px 600px;
- /* background-image: linear-gradient(rgba(47, 48, 58, 0.4)); */
+  background-size: 1600px 600px;
+  /* background-image: linear-gradient(rgba(47, 48, 58, 0.4)); */
 }
 
 .title-hero {
