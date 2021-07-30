@@ -47,9 +47,10 @@ h3 {
   align-items: center;
 }
 
-.nav-item:hover {
+/* .icon-mail:hover,
+.icon-tel:hover {
   fill: var(--blue-text);
-}
+} */
 .icon-mail,
 .icon-tel {
   fill: var(--seconadary-text-color);
@@ -60,11 +61,26 @@ h3 {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .icon-feature {
   width: 70px;
   height: 70px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-link {
+  width: 20px;
+  height: 20px;
 }
 
 /* logo */
