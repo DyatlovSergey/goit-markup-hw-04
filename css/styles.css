@@ -52,21 +52,19 @@ h3 {
   align-items: center;
 }
 
-/* .icon-mail:hover,
-.icon-tel:hover {
-  fill: var(--blue-text);
-} */
-
 .link svg {
   fill: var(--seconadary-text-color);
   margin-right: 10px;
-  width: 16px;
-  height: 12px;
+
+
 }
 
-.link svg:hover {
-  fill: var(--blue-text);
+
+.link:hover svg {
+fill: var(--blue-text);
 }
+
+
 .icons-feature {
   width: 270px;
   height: 120px;
@@ -170,6 +168,11 @@ outline: 1px solid tomato;
   text-decoration: none;
 }
 
+/* .link {
+  display: flex;
+align-items: baseline;
+} */
+
 .site-nav .link.current,
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -212,7 +215,7 @@ outline: 1px solid tomato;
   letter-spacing: 0.03em;
   padding: 6px 32px;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 4px;z
 }
 
 .filter-button:hover,
@@ -511,13 +514,20 @@ margin-right: 0px;
 .icon-link-client {
   width: 170px;
   height: 92px;
-  fill: #afb1b8;
+  
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.icon-link {
+
+  fill: #afb1b8;
+  
+
 }
 
 .icon-link-client:not(:last-child) {
@@ -529,8 +539,8 @@ margin-right: 0px;
   height: 60px;
 } */
 
-.icon-link-client:hover,
-.icon-link-client:focus {
+.icon-link:hover,
+.icon-link:focus {
   fill: var(--blue-text);
 }
 
